@@ -1,0 +1,327 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#wrapper{
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+
+/* hamburger */
+
+.navbar , .navbar .offcanvas{
+	background-color: lightgray !important;
+}
+.navbar .offcanvas-body .button-sign a{
+    border-radius: 3.65px;
+    background: #D6324A;
+    padding: 10px 25px;
+    color: #fff;
+}
+
+/* banner */
+
+.banner{
+	min-height: 500px;
+    background-color: #000;
+    background-image: url(../images/banner-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner p{
+	color: #FFF;
+	font-size: 14px;
+	font-family: Inter;
+	font-weight: 500;
+}
+.banner .button-sign a{
+	border-radius: 3.65px;
+	background: #D6324A;
+	padding: 10px 25px;
+    color: #fff;
+}
+.top-banner .english-changer button{
+	border: none;
+	background-color: transparent;
+}
+.banner .dropdown .dropdown-toggle::after{
+	display: none;
+}
+.banner .dropdown button {
+    border: 1px solid #F2EFE8;
+    border-radius: 5px;
+	min-width: 50px;
+    color: #000;
+    text-align: start;
+	background: #F2EFE8;
+	border-radius: 0.25rem 0rem 0rem 0.25rem;
+}
+.banner .search input{
+	border: 1px solid #fff;
+	background-color: #fff;
+	border-radius: 0rem;
+	width: 300px;
+}
+.banner .search .searchbutton {
+	background: #F2EFE8;
+	color: #000;
+	border: 1px solid #F2EFE8;
+	border-radius: 0rem 0.25rem 0.25rem 0rem;
+}
+.top-banner ul{
+	font-size: 18px;
+}
+.top-banner{
+	background-color: lightgray;
+}
+.top-banner li{
+	list-style: none;
+}
+.top-banner a{
+	text-decoration: none;
+	color: #000;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 800;
+    letter-spacing: 2.24px;
+}
+
+
+/* select section */
+
+.circle{
+	border: 1px solid #000;
+    border-radius: 50%;
+    padding: 2px 10px;
+}
+.select .search input{
+	border: none;
+	background-color: transparent;
+}
+.select .search
+{
+	padding: 0px 0px 0px 10px;
+}
+.select .select-
+{
+	border-radius: 17px;
+	background: #F2EFE8;
+	padding: 20px 25px;
+}
+.select .filter-more button
+{
+	color: #000;
+	font-size: 20px;
+	font-family: Inter;
+	font-weight: 600;
+	line-height: 20px;
+	border: none;
+	background-color: transparent;
+}
+.dropdown button{
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+	border-radius: 5px;
+	color: #000;
+	text-align: start;
+}
+.select .dropdown button:hover , 
+.select .dropdown button:active , 
+.select .dropdown button:focus{
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+	border-radius: 5px;
+	color: #000;
+	text-align: start;
+}
+.select .search button{
+	background-color: #000;
+	border: 1px solid #000;
+}
+/* events section */
+
+.features-events .dropdown-toggle::after{
+	display: none;
+}
+.features-events .slick-next{
+	top: -140px;
+	right: 200px;
+}
+.features-events .slick-prev{
+	top: -140px;
+	left: initial;
+	right: 280px;
+}
+.select .dropdown  .dropdown-toggle::after{
+	display: none;
+}
+
+.slider1 .slick-next:before , .slider1 .slick-prev:before{
+	color: #000;
+	padding: 10px;
+	font-size: 60px;
+}
+
+.features-events .dropdown button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    font-size: 22px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.features-events .dropdown button:hover , .features-events .dropdown button:active , 
+.features-events .dropdown button:focus{
+	background-color: transparent;
+	color: #000;
+	border: none;
+	box-shadow: none;
+}
+.features-events .dropdown-menu {
+    left: 100px !important;
+}
+
+.features-events .card {
+	border: 1px solid #DCD8D8;
+	background: #FFF;
+	box-shadow: 0px 3px 18px 4px rgba(128, 128, 128, 0.25);
+	 margin: 0px 10px;
+}
+.features-events .card .card-img{
+	width: 351px;
+	height: 265px;
+}
+.features-events .card .card-text {
+	width: 244px;
+}
+.features-events .card a
+{
+	border-radius: 4px;
+    border: 1px solid rgba(171, 163, 163, 0.20);
+    background: #D6324A;
+    color: #fff;
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+}
+
+/* newsletter section */
+
+.newsletter .newsletter-container h2{
+	color: #FFF;
+	font-size: 36px;
+	font-family: Poppins;
+	font-weight: 700;
+	letter-spacing: 0.36px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+.newsletter .newsletter-container p{
+	color: #FFF;
+	font-size: 16px;
+	font-family: Inter;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.newsletter{
+	background-color: #000;
+	min-height: 200px;
+}
+.newsletter .form-container button {
+	width: 180px;
+    padding: 10px;
+    border-radius: 0rem 0.25rem 0.25rem 0rem;
+    background: #D6324A;
+	border-color: #D6324A;
+	z-index: 1;
+}
+.newsletter .form-container input {
+	border-radius: 0.25rem 0rem 0rem 0.25rem;
+}
+.newsletter::after{
+	position: absolute;
+    content: "";
+    background: url(../images/newsletter-vector.png) no-repeat;
+    width: 170px;
+    height: 170px;
+    background-size: contain;
+    background-position: center;
+    right: 80px;
+    top: 10px;
+    z-index: 0;
+}
+.newsletter::before{
+	position: absolute;
+    content: "";
+    background: url(../images/newsletter-dot.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-position: center;
+    right: 15px;
+    z-index: 0;
+    bottom: 5px;
+}
+
+/* footer section */
+.footer{
+	min-height: 370px;
+	background-color: #F1EEE7;
+}
+.footer h3{
+	color: #201D1D;
+	font-size: 36px;
+	font-family: Poppins;
+	font-weight: 700;
+	letter-spacing: 0.36px;
+}
+
+@media only screen and (max-width: 767.98px){
+	.features-events .card .card-img img{
+		width: 100%;
+		height: 100%;
+	}
+	.features-events .card .card-img{
+		width: 100%;
+		height: 200px;
+	}
+	.features-events .card .card-text {
+		width: 230px;
+	}
+	.features-events .card a {
+		margin: 0 auto;
+	}
+}
+@media only screen and (min-width: 767.98px){
+	.banner h1{
+		color: #FFF;
+		font-size: 64px;
+		font-family: Poppins;
+		font-weight: 800;
+		letter-spacing: 2.24px;
+	}
+	.features-events .dropdown button {
+		background-color: #fff;
+		border: none;
+		color: #000;
+		font-size: 36px;
+		font-family: Poppins;
+		font-weight: 600;
+		padding: 0px;
+	}
+	.features-events .dropdown-menu{
+		left: 300px !important;
+	}
+}
+@media only screen and (min-width:991.98px) and (max-width:1439.98px){
+	.top-banner ul{
+		font-size: 12px;
+	}
+}
